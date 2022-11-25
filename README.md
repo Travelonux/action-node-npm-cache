@@ -14,9 +14,9 @@ jobs:
     steps:
       # Add like first step
       - name: Checkout / Setup Node / NPM-Cache
-        uses: rodobarcaaa/action-node-npm-cache@main
+        uses: Travelonux/action-node-npm-cache@main
         with:
-          token: ${{ secrets.REPO_GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       #... next steps ...     
 
